@@ -14,7 +14,6 @@ cd $src_repo
 rm -rf Build/*
 cd Build
 
-echo "config" >> /tmp/log.log
 ../configure $confflags # --prefix=$install_dir
 make -j $NP_MAKE
 make install
