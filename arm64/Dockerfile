@@ -1,5 +1,7 @@
 FROM linaro/tensorflow-arm-neoverse-n1:2.3.0-eigen
 
+LABEL org.opencontainers.image.source=https://github.com/uoe-team32/tensorflow
+
 ARG njobs
 
 USER root
